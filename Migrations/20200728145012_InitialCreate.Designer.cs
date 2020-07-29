@@ -11,7 +11,7 @@ namespace MvcMovie.Migrations
 {
     [DbContext(typeof(MvcMovieContext))]
     [Migration("20200728145012_InitialCreate")]
-    partial class InitialCreate
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

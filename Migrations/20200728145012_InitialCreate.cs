@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace MvcMovie.Migrations
 {
@@ -31,3 +32,4 @@ namespace MvcMovie.Migrations
                 name: "Movie");
         }
     }
+}
